@@ -5,10 +5,10 @@ url: "https://anbrake.github.io"
 # THEME-SPECIFIC CONFIGURATION
 theme_settings:
   # Meta
-  title: Type Theme
+  title: Aaron Brake
   avatar:
   favicon:
-  gravatar: # Email MD5 hash
+  gravatar:
   description: "Statistics, Data Science, and Machine Learning" # used by search engines
 
   # Header and footer text
