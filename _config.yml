@@ -6,7 +6,7 @@ url: "https://anbrake.github.io"
 theme_settings:
   # Meta
   title: Type Theme
-  avatar: 
+  avatar:
   favicon:
   gravatar: # Email MD5 hash
   description: "Statistics, Data Science, and Machine Learning" # used by search engines
