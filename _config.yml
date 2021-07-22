@@ -13,26 +13,27 @@ theme_settings:
 
   # Header and footer text
   header_text: >
-     <p></p>
+     Test Header
 
   header_text_feature_image:
   footer_text: >
+      Test Footer
 
 
   # Icons
   rss: false
-  email_address: anbrake98@gmail.com # Full email address, e.g. "sam@example.com"
+  email_address: anbrake98@gmail.com
   behance:
   bitbucket:
   dribbble:
   facebook:
   flickr:
   gitlab:
-  github: "anorak
+  github: "anbrake"
   gitter:
   google_plus:
   instagram:
-  linkedin:  www.linkedin.com/in/anbrake # Full URL
+  linkedin:  www.linkedin.com/in/anbrake
   pinterest:
   reddit:
   soundcloud:
@@ -44,7 +45,7 @@ theme_settings:
   youtube:
 
   # Scripts
-  google_analytics: # Tracking ID, e.g. "UA-000000-01"
+  google_analytics: #Tracking ID, e.g. "UA-000000-01"
   disqus_shortname:
   katex: true # Enable if using math markup
   search: false # Enable the search feature
