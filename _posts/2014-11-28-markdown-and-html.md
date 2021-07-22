@@ -1,39 +1,19 @@
 ---
 layout: post
-title: Markdown and HTML
+title: Common Statistical Questions and Answers
 ---
 
-Jekyll supports the use of [Markdown](http://daringfireball.net/projects/markdown/syntax) with inline HTML tags which makes it easier to quickly write posts with Jekyll, without having to worry too much about text formatting. A sample of the formatting follows.
+During my office hours and teaching during my graduate education, I encountered many of the same questions. Here are my (simpflied) answers to many common statistical questions and explanations of concepts: 
 
-Tables have also been extended from Markdown:
+1) Power
+ <!---The most common questions, and yet one of the hardest to properly define: What is statistical power? --->
+ 
+2) There are two categories of Statistical (or Machine Learning, or Data Scince, or ...) models: 
+    * Supervised:
+        + This category of model involves data that is labeled, and the overall goal is to be able to accurately predict these labels. \
+        + Supervised models come in two "flavors": predictive models, and intrepretable models. 
+    * Unsupervised
+        + This category of model involves data with no pre-labeling, so the goals may be more broad. Grouping of the data, adding a label to perform supervised tasks, or simply doing more data visualizations/storytelling are all examples of tasks that would apply to unsupervised learning.
+   
 
-First Header  | Second Header
-------------- | -------------
-Content Cell  | Content Cell
-Content Cell  | Content Cell
 
-Here's an example of an image, which is included using Markdown:
-
-![Geometric pattern with fading gradient]({{ site.baseurl }}/assets/img/sample_feature_img_2.png)
-
-Highlighting for code in Jekyll is done using Pygments or Rouge. This theme makes use of Rouge by default.
-
-{% highlight js %}
-// count to ten
-for (var i = 1; i <= 10; i++) {
-    console.log(i);
-}
-
-// count to twenty
-var j = 0;
-while (j < 20) {
-    j++;
-    console.log(j);
-}
-{% endhighlight %}
-
-Type Theme uses KaTeX to display maths. Equations such as $$S_n = a \times \frac{1-r^n}{1-r}$$ can be displayed inline.
-
-Alternatively, they can be shown on a new line:
-
-$$ f(x) = \int \frac{2x^2+4x+6}{x-2} $$
