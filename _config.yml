@@ -13,11 +13,11 @@ theme_settings:
 
   # Header and footer text
   header_text: >
-     Test Header
+     My journey into Statistics, Data Science, and Machine Learning. 
 
   header_text_feature_image:
   footer_text: >
-      Test Footer
+      
 
 
   # Icons
